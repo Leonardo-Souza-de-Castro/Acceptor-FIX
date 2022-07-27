@@ -1,0 +1,553 @@
+20220726-14:33:16.694 : Created session
+20220726-14:33:33.539 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:51125
+20220726-14:33:33.539 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220726-14:33:33.584 : Session reset: ResetOnLogon
+20220726-14:33:33.587 : Received logon
+20220726-14:33:33.604 : Responding to logon request
+20220726-14:33:33.605 : MsgSeqNum too high, expecting 1 but received 99
+20220726-14:33:33.606 : Sent ResendRequest FROM: 1 TO: 0
+20220726-14:33:35.326 : MsgSeqNum too high, expecting 1 but received 100
+20220726-14:33:35.327 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220726-14:34:05.336 : MsgSeqNum too high, expecting 1 but received 101
+20220726-14:34:05.336 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220726-14:34:10.385 : Sent test request TEST
+20220726-14:34:10.391 : MsgSeqNum too high, expecting 1 but received 102
+20220726-14:34:10.391 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220726-14:34:35.363 : MsgSeqNum too high, expecting 1 but received 103
+20220726-14:34:35.363 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220726-14:34:45.696 : Session FIX.4.4:EXECUTOR->CLIENT1 disconnecting: Timed out waiting for heartbeat
+20220726-14:34:45.731 : Session reset: ResetOnDisconnect
+20220727-12:28:59.166 : Session FIX.4.4:EXECUTOR->CLIENT1 already disconnected: Resetting...
+20220727-12:28:59.178 : Session reset: New session
+20220727-12:28:59.179 : Created session
+20220727-12:29:11.915 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:51903
+20220727-12:29:11.915 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-12:29:11.974 : Session reset: ResetOnLogon
+20220727-12:29:11.977 : Received logon
+20220727-12:29:11.989 : Responding to logon request
+20220727-12:29:11.990 : MsgSeqNum too high, expecting 1 but received 113
+20220727-12:29:11.991 : Sent ResendRequest FROM: 1 TO: 0
+20220727-12:29:36.373 : MsgSeqNum too high, expecting 1 but received 114
+20220727-12:29:36.373 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-12:29:48.488 : Sent test request TEST
+20220727-12:29:48.489 : MsgSeqNum too high, expecting 1 but received 115
+20220727-12:29:48.489 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-12:30:06.737 : Created session
+20220727-12:30:11.926 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:51953
+20220727-12:30:11.926 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-12:30:11.960 : Session reset: ResetOnLogon
+20220727-12:30:11.962 : Received logon
+20220727-12:30:11.976 : Responding to logon request
+20220727-12:30:11.976 : MsgSeqNum too high, expecting 1 but received 116
+20220727-12:30:11.977 : Sent ResendRequest FROM: 1 TO: 0
+20220727-12:30:36.397 : MsgSeqNum too high, expecting 1 but received 117
+20220727-12:30:36.397 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-12:30:48.476 : Sent test request TEST
+20220727-12:30:48.478 : MsgSeqNum too high, expecting 1 but received 118
+20220727-12:30:48.478 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-12:31:06.538 : Created session
+20220727-12:31:09.198 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:52069
+20220727-12:31:09.199 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-12:31:09.238 : Session reset: ResetOnLogon
+20220727-12:31:09.241 : Received logon
+20220727-12:31:09.273 : Responding to logon request
+20220727-12:31:09.273 : MsgSeqNum too high, expecting 1 but received 119
+20220727-12:31:09.275 : Sent ResendRequest FROM: 1 TO: 0
+20220727-12:35:14.833 : Created session
+20220727-12:36:32.061 : Created session
+20220727-12:36:39.014 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12547953 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:52276
+20220727-12:36:39.015 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-12:36:39.049 : Session reset: ResetOnLogon
+20220727-12:36:39.051 : Received logon
+20220727-12:36:39.064 : Responding to logon request
+20220727-12:36:39.064 : MsgSeqNum too high, expecting 1 but received 120
+20220727-12:36:39.066 : Sent ResendRequest FROM: 1 TO: 0
+20220727-12:37:06.523 : MsgSeqNum too high, expecting 1 but received 121
+20220727-12:37:06.523 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-12:37:15.616 : Sent test request TEST
+20220727-12:37:15.618 : MsgSeqNum too high, expecting 1 but received 122
+20220727-12:37:15.618 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-12:37:36.526 : MsgSeqNum too high, expecting 1 but received 123
+20220727-12:37:36.526 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-12:37:51.678 : Session FIX.4.4:EXECUTOR->CLIENT1 disconnecting: Timed out waiting for heartbeat
+20220727-12:37:51.716 : Session reset: ResetOnDisconnect
+20220727-12:39:18.078 : Created session
+20220727-12:39:23.019 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12547953 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:52293
+20220727-12:39:23.019 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-12:39:23.056 : Session reset: ResetOnLogon
+20220727-12:39:23.060 : Received logon
+20220727-12:39:23.074 : Responding to logon request
+20220727-12:39:23.075 : MsgSeqNum too high, expecting 1 but received 124
+20220727-12:39:23.076 : Sent ResendRequest FROM: 1 TO: 0
+20220727-12:39:36.563 : MsgSeqNum too high, expecting 1 but received 125
+20220727-12:39:36.563 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-12:39:59.804 : Sent test request TEST
+20220727-12:39:59.805 : MsgSeqNum too high, expecting 1 but received 126
+20220727-12:39:59.805 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-12:40:06.582 : MsgSeqNum too high, expecting 1 but received 127
+20220727-12:40:06.582 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-12:40:13.493 : Session FIX.4.4:EXECUTOR->CLIENT1 disconnecting: Socket exception (127.0.0.1:52293): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20220727-12:40:13.497 : Session reset: ResetOnDisconnect
+20220727-12:40:16.007 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 21296749 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:52295
+20220727-12:40:16.007 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 30 seconds
+20220727-12:40:16.010 : Session reset: ResetOnLogon
+20220727-12:40:16.010 : Received logon
+20220727-12:40:16.011 : Responding to logon request
+20220727-12:40:16.011 : MsgSeqNum too high, expecting 1 but received 128
+20220727-12:40:16.011 : Sent ResendRequest FROM: 1 TO: 0
+20220727-12:40:36.580 : MsgSeqNum too high, expecting 1 but received 129
+20220727-12:40:36.580 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-12:41:36.915 : Created session
+20220727-12:41:40.164 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:52305
+20220727-12:41:40.164 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-12:41:40.199 : Session reset: ResetOnLogon
+20220727-12:41:40.201 : Received logon
+20220727-12:41:40.217 : Responding to logon request
+20220727-12:41:40.218 : MsgSeqNum too high, expecting 1 but received 130
+20220727-12:41:40.219 : Sent ResendRequest FROM: 1 TO: 0
+20220727-12:42:06.756 : Created session
+20220727-12:42:09.523 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:52309
+20220727-12:42:09.524 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-12:42:09.559 : Session reset: ResetOnLogon
+20220727-12:42:09.564 : Received logon
+20220727-12:42:09.581 : Responding to logon request
+20220727-12:42:09.581 : MsgSeqNum too high, expecting 1 but received 131
+20220727-12:42:09.583 : Sent ResendRequest FROM: 1 TO: 0
+20220727-12:43:23.534 : Created session
+20220727-12:43:29.304 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:52316
+20220727-12:43:29.304 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-12:43:29.339 : Session reset: ResetOnLogon
+20220727-12:43:29.342 : Received logon
+20220727-12:43:29.354 : Responding to logon request
+20220727-12:43:29.355 : MsgSeqNum too high, expecting 1 but received 132
+20220727-12:43:29.356 : Sent ResendRequest FROM: 1 TO: 0
+20220727-12:43:36.723 : MsgSeqNum too high, expecting 1 but received 133
+20220727-12:43:36.723 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-12:47:24.913 : Created session
+20220727-12:47:31.455 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:52373
+20220727-12:47:31.455 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-12:47:31.491 : Session reset: ResetOnLogon
+20220727-12:47:31.494 : Received logon
+20220727-12:47:31.508 : Responding to logon request
+20220727-12:47:31.508 : MsgSeqNum too high, expecting 1 but received 134
+20220727-12:47:31.510 : Sent ResendRequest FROM: 1 TO: 0
+20220727-12:47:36.791 : MsgSeqNum too high, expecting 1 but received 135
+20220727-12:47:36.791 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-12:48:06.806 : MsgSeqNum too high, expecting 1 but received 136
+20220727-12:48:06.806 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-12:48:07.817 : Sent test request TEST
+20220727-12:48:07.822 : MsgSeqNum too high, expecting 1 but received 137
+20220727-12:48:07.822 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-12:48:36.815 : MsgSeqNum too high, expecting 1 but received 138
+20220727-12:48:36.815 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-12:48:43.867 : Session FIX.4.4:EXECUTOR->CLIENT1 disconnecting: Timed out waiting for heartbeat
+20220727-12:48:43.886 : Session reset: ResetOnDisconnect
+20220727-12:51:19.395 : Created session
+20220727-12:51:31.954 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12547953 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:52393
+20220727-12:51:31.954 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-12:51:31.999 : Session reset: ResetOnLogon
+20220727-12:51:32.002 : Received logon
+20220727-12:51:32.015 : Responding to logon request
+20220727-12:51:32.015 : MsgSeqNum too high, expecting 1 but received 139
+20220727-12:51:32.016 : Sent ResendRequest FROM: 1 TO: 0
+20220727-12:51:36.861 : MsgSeqNum too high, expecting 1 but received 140
+20220727-12:51:36.861 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-12:52:06.872 : MsgSeqNum too high, expecting 1 but received 141
+20220727-12:52:06.873 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-12:52:08.899 : Sent test request TEST
+20220727-12:52:08.908 : MsgSeqNum too high, expecting 1 but received 142
+20220727-12:52:08.908 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-12:52:25.861 : Created session
+20220727-12:52:32.762 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:52400
+20220727-12:52:32.762 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-12:52:32.795 : Session reset: ResetOnLogon
+20220727-12:52:32.797 : Received logon
+20220727-12:52:32.810 : Responding to logon request
+20220727-12:52:32.810 : MsgSeqNum too high, expecting 1 but received 143
+20220727-12:52:32.811 : Sent ResendRequest FROM: 1 TO: 0
+20220727-12:52:36.878 : MsgSeqNum too high, expecting 1 but received 144
+20220727-12:52:36.878 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-12:53:06.890 : MsgSeqNum too high, expecting 1 but received 145
+20220727-12:53:06.890 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-12:53:08.920 : Sent test request TEST
+20220727-12:53:08.924 : MsgSeqNum too high, expecting 1 but received 146
+20220727-12:53:08.924 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-12:53:36.900 : MsgSeqNum too high, expecting 1 but received 147
+20220727-12:53:36.900 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-12:53:44.962 : Session FIX.4.4:EXECUTOR->CLIENT1 disconnecting: Timed out waiting for heartbeat
+20220727-12:53:44.975 : Session reset: ResetOnDisconnect
+20220727-12:54:19.390 : Created session
+20220727-12:54:27.035 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12547953 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:52408
+20220727-12:54:27.036 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-12:54:27.075 : Session reset: ResetOnLogon
+20220727-12:54:27.077 : Received logon
+20220727-12:54:27.090 : Responding to logon request
+20220727-12:54:27.090 : MsgSeqNum too high, expecting 1 but received 148
+20220727-12:54:27.091 : Sent ResendRequest FROM: 1 TO: 0
+20220727-12:54:36.926 : MsgSeqNum too high, expecting 1 but received 149
+20220727-12:54:36.926 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-12:55:16.955 : Created session
+20220727-12:57:02.682 : Created session
+20220727-12:57:58.403 : Created session
+20220727-12:59:26.772 : Created session
+20220727-12:59:58.153 : Created session
+20220727-13:00:07.221 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:52443
+20220727-13:00:07.221 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-13:00:07.255 : Session reset: ResetOnLogon
+20220727-13:00:07.258 : Received logon
+20220727-13:00:07.270 : Responding to logon request
+20220727-13:00:07.271 : MsgSeqNum too high, expecting 1 but received 150
+20220727-13:00:07.272 : Sent ResendRequest FROM: 1 TO: 0
+20220727-13:00:37.051 : MsgSeqNum too high, expecting 1 but received 151
+20220727-13:00:37.052 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-13:00:44.099 : Sent test request TEST
+20220727-13:00:44.101 : MsgSeqNum too high, expecting 1 but received 152
+20220727-13:00:44.101 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-13:01:01.619 : Created session
+20220727-13:01:07.692 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:52451
+20220727-13:01:07.692 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-13:01:07.725 : Session reset: ResetOnLogon
+20220727-13:01:07.727 : Received logon
+20220727-13:01:07.740 : Responding to logon request
+20220727-13:01:07.740 : MsgSeqNum too high, expecting 1 but received 153
+20220727-13:01:07.741 : Sent ResendRequest FROM: 1 TO: 0
+20220727-13:01:37.071 : MsgSeqNum too high, expecting 1 but received 154
+20220727-13:01:37.072 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-13:01:44.136 : Sent test request TEST
+20220727-13:01:44.142 : MsgSeqNum too high, expecting 1 but received 155
+20220727-13:01:44.142 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-13:02:06.233 : Created session
+20220727-13:02:11.878 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:52462
+20220727-13:02:11.878 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-13:02:11.912 : Session reset: ResetOnLogon
+20220727-13:02:11.914 : Received logon
+20220727-13:02:11.926 : Responding to logon request
+20220727-13:02:11.927 : MsgSeqNum too high, expecting 1 but received 156
+20220727-13:02:11.928 : Sent ResendRequest FROM: 1 TO: 0
+20220727-13:10:36.548 : Created session
+20220727-13:11:11.203 : Created session
+20220727-13:11:18.484 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:52640
+20220727-13:11:18.484 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-13:11:18.517 : Session reset: ResetOnLogon
+20220727-13:11:18.520 : Received logon
+20220727-13:11:18.532 : Responding to logon request
+20220727-13:11:18.532 : MsgSeqNum too high, expecting 1 but received 163
+20220727-13:11:18.534 : Sent ResendRequest FROM: 1 TO: 0
+20220727-13:11:37.389 : MsgSeqNum too high, expecting 1 but received 164
+20220727-13:11:37.389 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-13:13:38.988 : Created session
+20220727-13:13:44.480 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:52649
+20220727-13:13:44.480 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-13:13:44.520 : Session reset: ResetOnLogon
+20220727-13:13:44.524 : Received logon
+20220727-13:13:44.538 : Responding to logon request
+20220727-13:13:44.538 : MsgSeqNum too high, expecting 1 but received 165
+20220727-13:13:44.539 : Sent ResendRequest FROM: 1 TO: 0
+20220727-13:14:07.410 : MsgSeqNum too high, expecting 1 but received 166
+20220727-13:14:07.410 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-13:14:21.525 : Sent test request TEST
+20220727-13:14:21.527 : MsgSeqNum too high, expecting 1 but received 167
+20220727-13:14:21.527 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-13:14:37.420 : MsgSeqNum too high, expecting 1 but received 168
+20220727-13:14:37.420 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-13:14:56.573 : Session FIX.4.4:EXECUTOR->CLIENT1 disconnecting: Timed out waiting for heartbeat
+20220727-13:14:56.580 : Session reset: ResetOnDisconnect
+20220727-13:21:13.563 : Created session
+20220727-13:21:57.970 : Created session
+20220727-13:22:03.634 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12547953 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:52689
+20220727-13:22:03.634 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-13:22:03.666 : Session reset: ResetOnLogon
+20220727-13:22:03.668 : Received logon
+20220727-13:22:03.681 : Responding to logon request
+20220727-13:22:03.681 : MsgSeqNum too high, expecting 1 but received 169
+20220727-13:22:03.682 : Sent ResendRequest FROM: 1 TO: 0
+20220727-13:22:07.543 : MsgSeqNum too high, expecting 1 but received 170
+20220727-13:22:07.543 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-13:22:37.557 : MsgSeqNum too high, expecting 1 but received 171
+20220727-13:22:37.557 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-13:22:40.582 : Sent test request TEST
+20220727-13:22:40.590 : MsgSeqNum too high, expecting 1 but received 172
+20220727-13:22:40.590 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-13:23:26.879 : Created session
+20220727-13:23:34.276 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:52701
+20220727-13:23:34.276 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-13:23:34.309 : Session reset: ResetOnLogon
+20220727-13:23:34.311 : Received logon
+20220727-13:23:34.323 : Responding to logon request
+20220727-13:23:34.323 : MsgSeqNum too high, expecting 1 but received 173
+20220727-13:23:34.325 : Sent ResendRequest FROM: 1 TO: 0
+20220727-13:23:37.577 : MsgSeqNum too high, expecting 1 but received 174
+20220727-13:23:37.577 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-13:34:44.692 : Created session
+20220727-13:44:57.309 : Created session
+20220727-13:45:24.927 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 45653674 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:53372
+20220727-13:45:24.927 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-13:45:24.993 : Session reset: ResetOnLogon
+20220727-13:45:24.995 : Received logon
+20220727-13:45:25.009 : Responding to logon request
+20220727-13:45:25.009 : MsgSeqNum too high, expecting 1 but received 176
+20220727-13:45:25.011 : Sent ResendRequest FROM: 1 TO: 0
+20220727-13:45:45.045 : MsgSeqNum too high, expecting 1 but received 177
+20220727-13:45:45.045 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-13:46:01.187 : Sent test request TEST
+20220727-13:46:01.189 : MsgSeqNum too high, expecting 1 but received 178
+20220727-13:46:01.190 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-13:46:15.049 : MsgSeqNum too high, expecting 1 but received 179
+20220727-13:46:15.049 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-13:46:37.263 : Session FIX.4.4:EXECUTOR->CLIENT1 disconnecting: Timed out waiting for heartbeat
+20220727-13:46:37.273 : Session reset: ResetOnDisconnect
+20220727-13:46:43.768 : Created session
+20220727-13:46:49.896 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:53381
+20220727-13:46:49.896 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-13:46:49.940 : Session reset: ResetOnLogon
+20220727-13:46:49.942 : Received logon
+20220727-13:46:49.957 : Responding to logon request
+20220727-13:46:49.957 : MsgSeqNum too high, expecting 1 but received 180
+20220727-13:46:49.959 : Sent ResendRequest FROM: 1 TO: 0
+20220727-13:47:15.813 : Created session
+20220727-13:47:26.229 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:53386
+20220727-13:47:26.230 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-13:47:26.274 : Session reset: ResetOnLogon
+20220727-13:47:26.277 : Received logon
+20220727-13:47:26.290 : Responding to logon request
+20220727-13:47:26.290 : MsgSeqNum too high, expecting 1 but received 181
+20220727-13:47:26.292 : Sent ResendRequest FROM: 1 TO: 0
+20220727-13:47:45.082 : MsgSeqNum too high, expecting 1 but received 182
+20220727-13:47:45.082 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-14:11:34.381 : Created session
+20220727-14:12:09.462 : Created session
+20220727-14:12:59.808 : Created session
+20220727-14:13:08.535 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 62476613 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:54057
+20220727-14:13:08.535 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-14:13:08.581 : Session reset: ResetOnLogon
+20220727-14:13:08.583 : Received logon
+20220727-14:13:08.596 : Responding to logon request
+20220727-14:13:08.596 : MsgSeqNum too high, expecting 1 but received 191
+20220727-14:13:08.598 : Sent ResendRequest FROM: 1 TO: 0
+20220727-14:13:24.033 : Session FIX.4.4:EXECUTOR->CLIENT1 disconnecting: Socket exception (127.0.0.1:54057): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20220727-14:13:24.038 : Session reset: ResetOnDisconnect
+20220727-14:13:25.778 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 62047773 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:54059
+20220727-14:13:25.778 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 30 seconds
+20220727-14:13:25.781 : Session reset: ResetOnLogon
+20220727-14:13:25.781 : Received logon
+20220727-14:13:25.782 : Responding to logon request
+20220727-14:13:25.782 : MsgSeqNum too high, expecting 1 but received 192
+20220727-14:13:25.782 : Sent ResendRequest FROM: 1 TO: 0
+20220727-14:13:35.064 : MsgSeqNum too high, expecting 1 but received 193
+20220727-14:13:35.064 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-14:13:37.428 : Session FIX.4.4:EXECUTOR->CLIENT1 disconnecting: Socket exception (127.0.0.1:54059): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20220727-14:13:37.441 : Session reset: ResetOnDisconnect
+20220727-14:13:39.338 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 48015737 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:54060
+20220727-14:13:39.338 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 30 seconds
+20220727-14:13:39.341 : Session reset: ResetOnLogon
+20220727-14:13:39.341 : Received logon
+20220727-14:13:39.342 : Responding to logon request
+20220727-14:13:39.342 : MsgSeqNum too high, expecting 1 but received 194
+20220727-14:13:39.342 : Sent ResendRequest FROM: 1 TO: 0
+20220727-14:13:53.508 : Session FIX.4.4:EXECUTOR->CLIENT1 disconnecting: Socket exception (127.0.0.1:54060): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20220727-14:13:53.511 : Session reset: ResetOnDisconnect
+20220727-16:10:03.937 : Created session
+20220727-16:10:18.571 : Created session
+20220727-16:16:03.717 : Created session
+20220727-16:16:16.786 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 39086322 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:57441
+20220727-16:16:16.786 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-16:16:16.842 : Session reset: ResetOnLogon
+20220727-16:16:16.846 : Received logon
+20220727-16:16:16.859 : Responding to logon request
+20220727-16:16:16.860 : MsgSeqNum too high, expecting 1 but received 196
+20220727-16:16:16.862 : Sent ResendRequest FROM: 1 TO: 0
+20220727-16:16:38.773 : MsgSeqNum too high, expecting 1 but received 197
+20220727-16:16:38.773 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-16:16:52.916 : Sent test request TEST
+20220727-16:16:52.923 : MsgSeqNum too high, expecting 1 but received 198
+20220727-16:16:52.923 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-16:17:08.848 : Created session
+20220727-16:17:13.556 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 35320229 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:57448
+20220727-16:17:13.556 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-16:17:13.600 : Session reset: ResetOnLogon
+20220727-16:17:13.603 : Received logon
+20220727-16:17:13.616 : Responding to logon request
+20220727-16:17:13.616 : MsgSeqNum too high, expecting 1 but received 199
+20220727-16:17:13.618 : Sent ResendRequest FROM: 1 TO: 0
+20220727-16:17:38.717 : Created session
+20220727-16:18:04.460 : Created session
+20220727-16:18:23.383 : Created session
+20220727-16:18:35.627 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:57464
+20220727-16:18:35.628 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-16:18:35.673 : Session reset: ResetOnLogon
+20220727-16:18:35.676 : Received logon
+20220727-16:18:35.690 : Responding to logon request
+20220727-16:18:35.690 : MsgSeqNum too high, expecting 1 but received 200
+20220727-16:18:35.692 : Sent ResendRequest FROM: 1 TO: 0
+20220727-16:18:38.859 : MsgSeqNum too high, expecting 1 but received 201
+20220727-16:18:38.859 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-16:18:56.209 : Created session
+20220727-16:19:02.726 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:57470
+20220727-16:19:02.726 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-16:19:02.773 : Session reset: ResetOnLogon
+20220727-16:19:02.775 : Received logon
+20220727-16:19:02.789 : Responding to logon request
+20220727-16:19:02.789 : MsgSeqNum too high, expecting 1 but received 202
+20220727-16:19:02.791 : Sent ResendRequest FROM: 1 TO: 0
+20220727-16:19:08.871 : MsgSeqNum too high, expecting 1 but received 203
+20220727-16:19:08.871 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-16:19:36.767 : Created session
+20220727-16:19:40.575 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12547953 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:57476
+20220727-16:19:40.575 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-16:19:40.620 : Session reset: ResetOnLogon
+20220727-16:19:40.622 : Received logon
+20220727-16:19:40.635 : Responding to logon request
+20220727-16:19:40.636 : MsgSeqNum too high, expecting 1 but received 204
+20220727-16:19:40.637 : Sent ResendRequest FROM: 1 TO: 0
+20220727-16:19:52.928 : Session FIX.4.4:EXECUTOR->CLIENT1 disconnecting: Socket exception (127.0.0.1:57476): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20220727-16:19:52.932 : Session reset: ResetOnDisconnect
+20220727-16:19:54.859 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 45653674 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:57477
+20220727-16:19:54.859 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 30 seconds
+20220727-16:19:54.862 : Session reset: ResetOnLogon
+20220727-16:19:54.862 : Received logon
+20220727-16:19:54.863 : Responding to logon request
+20220727-16:19:54.863 : MsgSeqNum too high, expecting 1 but received 205
+20220727-16:19:54.866 : Sent ResendRequest FROM: 1 TO: 0
+20220727-16:20:08.885 : MsgSeqNum too high, expecting 1 but received 206
+20220727-16:20:08.885 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-16:21:09.498 : Created session
+20220727-16:21:16.857 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:57484
+20220727-16:21:16.857 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-16:21:16.901 : Session reset: ResetOnLogon
+20220727-16:21:16.904 : Received logon
+20220727-16:21:16.919 : Responding to logon request
+20220727-16:21:16.920 : MsgSeqNum too high, expecting 1 but received 207
+20220727-16:21:16.922 : Sent ResendRequest FROM: 1 TO: 0
+20220727-16:21:38.910 : MsgSeqNum too high, expecting 1 but received 208
+20220727-16:21:38.911 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-16:21:45.220 : Session FIX.4.4:EXECUTOR->CLIENT1 disconnecting: Socket exception (127.0.0.1:57484): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20220727-16:21:45.223 : Session reset: ResetOnDisconnect
+20220727-16:21:47.422 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 64340531 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:57485
+20220727-16:21:47.422 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 30 seconds
+20220727-16:21:47.427 : Session reset: ResetOnLogon
+20220727-16:21:47.427 : Received logon
+20220727-16:21:53.454 : Responding to logon request
+20220727-16:21:53.454 : MsgSeqNum too high, expecting 1 but received 209
+20220727-16:21:54.988 : Sent ResendRequest FROM: 1 TO: 0
+20220727-16:22:08.783 : Session FIX.4.4:EXECUTOR->CLIENT1 disconnecting: Socket exception (127.0.0.1:57485): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20220727-16:22:17.040 : Session reset: ResetOnDisconnect
+20220727-16:22:19.349 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 11791131 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:57487
+20220727-16:22:19.349 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 30 seconds
+20220727-16:22:19.351 : Session reset: ResetOnLogon
+20220727-16:22:19.351 : Received logon
+20220727-16:22:19.352 : Responding to logon request
+20220727-16:22:19.352 : MsgSeqNum too high, expecting 1 but received 210
+20220727-16:22:19.359 : Sent ResendRequest FROM: 1 TO: 0
+20220727-16:22:40.937 : Created session
+20220727-16:22:45.946 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:57493
+20220727-16:22:45.946 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-16:22:45.991 : Session reset: ResetOnLogon
+20220727-16:22:45.993 : Received logon
+20220727-16:23:08.925 : Session FIX.4.4:EXECUTOR->CLIENT1 disconnecting: Received msg type '0' when not logged on
+20220727-16:23:08.931 : Session reset: ResetOnDisconnect
+20220727-16:23:34.517 : Created session
+20220727-16:23:39.045 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:57498
+20220727-16:23:39.045 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-16:23:39.091 : Session reset: ResetOnLogon
+20220727-16:23:39.093 : Received logon
+20220727-16:24:27.531 : Created session
+20220727-16:24:31.690 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:57503
+20220727-16:24:31.690 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-16:24:31.736 : Session reset: ResetOnLogon
+20220727-16:24:31.738 : Received logon
+20220727-16:24:57.872 : Created session
+20220727-16:25:01.350 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:57507
+20220727-16:25:01.350 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-16:25:01.399 : Session reset: ResetOnLogon
+20220727-16:25:01.402 : Received logon
+20220727-16:26:47.579 : Created session
+20220727-16:26:56.705 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:57526
+20220727-16:26:56.705 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-16:26:56.753 : Session reset: ResetOnLogon
+20220727-16:26:56.757 : Received logon
+20220727-16:27:31.675 : Session FIX.4.4:EXECUTOR->CLIENT1 disconnecting: Received msg type '0' when not logged on
+20220727-16:27:31.816 : Session reset: ResetOnDisconnect
+20220727-16:27:46.248 : Created session
+20220727-16:27:57.663 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:57532
+20220727-16:27:57.663 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-16:27:57.708 : Session reset: ResetOnLogon
+20220727-16:27:57.710 : Received logon
+20220727-16:28:38.311 : Session FIX.4.4:EXECUTOR->CLIENT1 disconnecting: Received msg type '0' when not logged on
+20220727-16:28:54.937 : Created session
+20220727-16:28:59.373 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:57548
+20220727-16:28:59.373 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-16:28:59.417 : Session reset: ResetOnLogon
+20220727-16:28:59.419 : Received logon
+20220727-16:30:41.602 : Created session
+20220727-16:30:45.773 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:57560
+20220727-16:30:45.773 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-16:30:45.816 : Session reset: ResetOnLogon
+20220727-16:30:45.819 : Received logon
+20220727-16:30:46.063 : Responding to logon request
+20220727-16:30:46.064 : MsgSeqNum too high, expecting 1 but received 231
+20220727-16:30:46.066 : Sent ResendRequest FROM: 1 TO: 0
+20220727-16:31:09.087 : MsgSeqNum too high, expecting 1 but received 232
+20220727-16:31:09.087 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-16:31:22.208 : Sent test request TEST
+20220727-16:31:22.217 : MsgSeqNum too high, expecting 1 but received 233
+20220727-16:31:22.217 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-16:31:32.163 : Session FIX.4.4:EXECUTOR->CLIENT1 disconnecting: Socket exception (127.0.0.1:57560): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20220727-16:31:32.167 : Session reset: ResetOnDisconnect
+20220727-16:32:56.366 : Created session
+20220727-16:33:50.393 : Created session
+20220727-16:33:58.821 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12036987 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:57592
+20220727-16:33:58.822 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-16:33:58.867 : Session reset: ResetOnLogon
+20220727-16:33:58.870 : Received logon
+20220727-16:34:22.623 : Responding to logon request
+20220727-16:34:22.624 : MsgSeqNum too high, expecting 1 but received 237
+20220727-16:34:34.843 : Sent ResendRequest FROM: 1 TO: 0
+20220727-16:34:34.847 : MsgSeqNum too high, expecting 1 but received 238
+20220727-16:34:34.847 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-16:34:37.882 : Sent test request TEST
+20220727-16:34:37.889 : MsgSeqNum too high, expecting 1 but received 239
+20220727-16:34:37.889 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-16:34:53.613 : MsgSeqNum too high, expecting 1 but received 240
+20220727-16:34:53.613 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-16:35:11.764 : Session FIX.4.4:EXECUTOR->CLIENT1 disconnecting: Timed out waiting for heartbeat
+20220727-16:35:11.772 : Session reset: ResetOnDisconnect
+20220727-16:37:46.071 : Created session
+20220727-16:37:56.218 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12547953 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:54952
+20220727-16:37:56.218 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-16:37:56.261 : Session reset: ResetOnLogon
+20220727-16:37:56.263 : Received logon
+20220727-16:37:56.326 : Responding to logon request
+20220727-16:37:56.326 : MsgSeqNum too high, expecting 1 but received 241
+20220727-16:37:56.329 : Sent ResendRequest FROM: 1 TO: 0
+20220727-16:38:23.697 : MsgSeqNum too high, expecting 1 but received 242
+20220727-16:38:23.697 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-16:39:56.975 : Created session
+20220727-16:40:01.296 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12547953 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:54962
+20220727-16:40:01.296 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-16:40:01.341 : Session reset: ResetOnLogon
+20220727-16:40:01.343 : Received logon
+20220727-16:41:14.526 : Created session
+20220727-16:41:30.897 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12547953 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:54975
+20220727-16:41:30.897 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-16:41:30.949 : Session reset: ResetOnLogon
+20220727-16:41:30.951 : Received logon
+20220727-16:41:36.026 : Responding to logon request
+20220727-16:41:36.027 : MsgSeqNum too high, expecting 1 but received 247
+20220727-16:41:37.931 : Sent ResendRequest FROM: 1 TO: 0
+20220727-16:41:54.503 : MsgSeqNum too high, expecting 1 but received 248
+20220727-16:41:54.503 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-16:42:16.166 : Sent test request TEST
+20220727-16:42:16.173 : MsgSeqNum too high, expecting 1 but received 249
+20220727-16:42:16.173 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-16:42:24.498 : MsgSeqNum too high, expecting 1 but received 250
+20220727-16:42:24.498 : Already sent ResendRequest FROM: 1 TO: 0.  Not sending another.
+20220727-16:42:43.696 : Session FIX.4.4:EXECUTOR->CLIENT1 disconnecting: Timed out waiting for heartbeat
+20220727-16:42:43.705 : Session reset: ResetOnDisconnect
+20220727-16:47:43.615 : Created session
+20220727-16:48:00.375 : FIX.4.4:EXECUTOR->CLIENT1 Socket Reader 12547953 accepting session FIX.4.4:EXECUTOR->CLIENT1 from 127.0.0.1:55053
+20220727-16:48:00.375 : FIX.4.4:EXECUTOR->CLIENT1 Acceptor heartbeat set to 0 seconds
+20220727-16:48:00.420 : Session reset: ResetOnLogon
+20220727-16:48:00.423 : Received logon
+20220727-16:48:00.645 : Responding to logon request
+20220727-16:48:00.645 : MsgSeqNum too high, expecting 1 but received 251
+20220727-16:48:00.647 : Sent ResendRequest FROM: 1 TO: 0
