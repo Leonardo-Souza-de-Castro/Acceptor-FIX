@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Acceptor_FIX": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\Guilherme\\Desktop\\Trabalhos do leo\\Trabalho\\FIX\\Acceptor FIX\\Acceptor_FIX\\acceptor.cfg\" \r\n\"C:\\Users\\Guilherme\\Desktop\\Trabalhos do leo\\Trabalho\\FIX\\Acceptor FIX\\Acceptor_FIX\\log4net.config\""
+    }
+  }
+}

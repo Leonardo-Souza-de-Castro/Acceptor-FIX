@@ -11,7 +11,7 @@ namespace Acceptor_FIX
         private static readonly log4net.ILog log = LogManager.GetLogger(typeof(Program));
         static void Main(string[] args)
         {
-            SessionSettings settings = new SessionSettings(@"C:\Users\Guilherme\Desktop\Trabalhos do leo\Trabalho\FIX\Acceptor FIX\Acceptor_FIX\acceptor.cfg");
+            SessionSettings settings = new SessionSettings(args[0]);
             IApplication myApp = new MyApp();
             IMessageStoreFactory storeFactory = new FileStoreFactory(settings);
             ILogFactory logFactory = new FileLogFactory(settings);
@@ -21,7 +21,8 @@ namespace Acceptor_FIX
                 settings,
                 logFactory);
 
-            XmlConfigurator.Configure(new System.IO.FileInfo(@"C:\Users\Guilherme\Desktop\Trabalhos do leo\Trabalho\FIX\Acceptor FIX\Acceptor_FIX\log4net.config"));
+            //Adicionar em args o caminho para os arquivos
+            XmlConfigurator.Configure(new System.IO.FileInfo(args[1]));
 
             acceptor.Start();
             log.Info("Acceptor Iniciado");

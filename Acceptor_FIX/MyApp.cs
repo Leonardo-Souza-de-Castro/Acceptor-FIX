@@ -29,7 +29,7 @@ namespace Acceptor_FIX
         public void OnMessage(Message ord,SessionID sessionID)
         {
             Campos_Protocolo Protocolo = new Campos_Protocolo();
-
+            //ord.getFieldOrder();
             var protocol = ord.ToString().Split("");
 
             for (int i = 0; i <= protocol.Length - 2; i++)
