@@ -1,0 +1,13 @@
+20220812-14:23:12.488 : connected
+20220812-14:24:30.036 : Error on Session 'FIX.4.4:EXECUTOR->CLIENT1': System.NullReferenceException: Object reference not set to an instance of an object.
+   at Acceptor_FIX.MyApp.OnMessage(Message ord, SessionID sessionID)
+   at Acceptor_FIX.MyApp.ToAdmin(Message msg, SessionID sessionID)
+   at QuickFix.Session.SendRaw(Message message, Int32 seqNum)
+   at QuickFix.Session.GenerateLogon(Message otherLogon)
+   at QuickFix.Session.NextLogon(Message logon)
+   at QuickFix.Session.Next(MessageBuilder msgBuilder)
+   at QuickFix.Session.NextMessage(String msgStr)
+   at QuickFix.Session.Next(String msgStr)
+   at QuickFix.SocketReader.OnMessageFoundInternal(String msg)
+20220812-14:24:30.038 : shutdown requested: Disconnected
+20220812-14:24:30.052 : shutdown

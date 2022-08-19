@@ -1,0 +1,5 @@
+20220818-13:07:24.627 : connected
+20220818-13:07:59.506 : SocketReader Error: Socket exception (127.0.0.1:60228): Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20220818-13:07:59.506 : shutdown requested: Disconnected
+20220818-13:07:59.511 : shutdown requested: Foi forçado o cancelamento de uma conexão existente pelo host remoto.
+20220818-13:07:59.511 : shutdown

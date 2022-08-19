@@ -1,0 +1,11 @@
+20220809-13:46:36.395 : connected
+20220809-13:46:36.490 : ERROR: Disconnecting; received message for unknown session: 8=FIX.4.29=6835=A49=CLIENT156=EXECUTOR34=42852=20220809-13:46:3698=0108=3010=014
+20220809-13:46:36.614 : SocketReader Error: System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.NetworkStream'.
+   at System.Net.Sockets.NetworkStream.<ThrowIfDisposed>g__ThrowObjectDisposedException|63_0()
+   at System.Net.Sockets.NetworkStream.BeginRead(Byte[] buffer, Int32 offset, Int32 size, AsyncCallback callback, Object state)
+   at QuickFix.SocketReader.ReadSome(Byte[] buffer, Int32 timeoutMilliseconds)
+   at QuickFix.SocketReader.Read()
+20220809-13:46:36.615 : shutdown requested: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.NetworkStream'.
+20220809-13:46:36.615 : shutdown

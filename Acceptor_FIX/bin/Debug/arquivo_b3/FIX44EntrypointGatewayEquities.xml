@@ -1,4 +1,4 @@
-<!--  FIX44 Master XML Version: 1.0.38 -->
+ <!--  FIX44 Master XML Version: 1.0.40 -->
 <fix major="4" minor="4">
   <header>
     <field name="BeginString" required="Y" />
@@ -220,6 +220,7 @@
 	  <field name="RoutingInstruction" required="N" />
 	  <field name="PegPriceType" required="N" />
 	  <field name="SelfTradePreventionInstruction" required="N" />
+	  <field name="OrdTagID" required="N" />
     </message>
     <message name="ExecutionReport" msgtype="8" msgcat="app">
       <component name="ApplicationSequenceControl" required="N" />
@@ -418,6 +419,7 @@
 	  <field name="PegPriceType" required="N" />
 	  <field name="SelfTradePreventionInstruction" required="N" />
 	  <field name="ExternalRFQIndicator" required="N" />
+	  <field name="OrdTagID" required="N" />
     </message>
     <message name="OrderCancelReplaceRequest" msgtype="G" msgcat="app">
       <field name="MMProtectionReset" required="N" />
@@ -516,6 +518,7 @@
 	  <field name="RoutingInstruction" required="N" />
 	  <field name="PegPriceType" required="N" />
 	  <field name="SelfTradePreventionInstruction" required="N" />
+	  <field name="OrdTagID" required="N" />
     </message>
     <message name="OrderCancelRequest" msgtype="F" msgcat="app">
       <field name="OrigClOrdID" required="Y" />
@@ -1045,6 +1048,10 @@
       <field name="MassActionScope" required="Y" />
       <field name="ExecRestatementReason" required="Y" />
       <field name="TransactTime" required="Y" />
+	  <field name="SecurityGroup" required="N" />
+      <field name="Symbol" required="N" />
+      <field name="OrdTagID" required="N" />
+      <field name="Side" required="N" />
     </message>
     <message name="OrderMassActionReport" msgcat="app" msgtype="BZ">
       <field name="ClOrdID" required="Y" />
@@ -1056,6 +1063,10 @@
       <field name="ExecRestatementReason" required="Y" />
       <field name="TransactTime" required="Y" />
       <field name="Text" required="N" />
+	  <field name="SecurityGroup" required="N" />
+      <field name="Symbol" required="N" />
+      <field name="OrdTagID" required="N" />
+      <field name="Side" required="N" />
     </message>
     <message name="QuoteRequest" msgcat="app" msgtype="R">
       <component name="ApplicationSequenceControl" required="N" />
@@ -1477,7 +1488,7 @@
       </group>
       <field name="Product" required="N" />
       <field name="CFICode" required="N" />
-      <field name="SecurityGroupTMR" required="N" />
+      <field name="SecurityGroup" required="N" />
       <field name="SecurityType" required="N" />
       <field name="SecuritySubType" required="N" />
       <field name="MaturityMonthYear" required="N" />
@@ -2487,6 +2498,9 @@
 	  <value enum="204" description="ORDER_CANCELLED_DUE_TO_OPERATIONAL_ERROR" />
 	  <value enum="205" description="CANCEL_FROM_FIRMSOFT_DUE_TO_OPERATIONAL_ERROR" />
 	  <value enum="206" description="ORDER_CANCELLED_VIA_FIRMSOFT_DUE_TO_OPERATIONAL_ERROR" />
+	  <value enum="207" description="MASS_CANCEL_ORDER_DUE_TO_OPERATIONAL_ERROR_REQUEST" />
+	  <value enum="208" description="MASS_CANCEL_ORDER_DUE_TO_OPERATIONAL_ERROR_EFFECTIVE" />
+	  <value enum="209" description="CANCEL_ON_MIDPOINT_BROKER_ONLY_REMOVAL" />
 	</field>
     <field number="379" name="BusinessRejectRefID" type="STRING" />
     <field number="380" name="BusinessRejectReason" type="INT" />
@@ -3320,7 +3334,7 @@
 	  <value enum="F" description="RESULT_OF_POINT_IN_TIME_AUCTION" />
     </field>
     <field number="1128" name="ApplVerID" type="STRING" />
-    <field number="1151" name="SecurityGroupTMR" type="STRING" />
+    <field number="1151" name="SecurityGroup" type="STRING" />
     <field number="1171" name="PrivateQuote" type="BOOLEAN" />
     <field number="1180" name="ApplID" type="STRING" />
     <field number="1181" name="ApplSeqNum" type="SEQNUM" />
@@ -3502,7 +3516,9 @@
 	  <value enum="1" description="RETAIL_LIQUIDITY_TAKER" />
       <value enum="2" description="WAIVED_PRIORITY" />
 	  <value enum="3" description="BROKER_ONLY" />
+	  <value enum="4" description="BROKER_ONLY_REMOVAL" />
 	</field>  
+	<field number="35505" name="OrdTagID" type="INT" />
 	<field number="35539" name="SelfTradePreventionInstruction" type="INT">
 	  <value enum="1" description="CANCEL_AGGRESSING_ORDER" />
       <value enum="2" description="CANCEL_RESTING_ORDER" />

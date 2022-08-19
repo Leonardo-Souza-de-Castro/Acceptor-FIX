@@ -1,0 +1,13 @@
+20220809-11:53:08.355 : connected
+20220809-11:53:23.896 : Error on Session 'FIX.4.4:EXECUTOR->CLIENT1': System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Acceptor_FIX.MyApp.OnMessage(Message ord, SessionID sessionID) in C:\Users\Guilherme\Desktop\Trabalhos do leo\Trabalho\FIX\Acceptor FIX\Acceptor_FIX\MyApp.cs:line 36
+   at Acceptor_FIX.MyApp.ToAdmin(Message msg, SessionID sessionID) in C:\Users\Guilherme\Desktop\Trabalhos do leo\Trabalho\FIX\Acceptor FIX\Acceptor_FIX\MyApp.cs:line 19
+   at QuickFix.Session.SendRaw(Message message, Int32 seqNum)
+   at QuickFix.Session.GenerateLogon(Message otherLogon)
+   at QuickFix.Session.NextLogon(Message logon)
+   at QuickFix.Session.Next(MessageBuilder msgBuilder)
+   at QuickFix.Session.NextMessage(String msgStr)
+   at QuickFix.Session.Next(String msgStr)
+   at QuickFix.SocketReader.OnMessageFoundInternal(String msg)
+20220809-11:53:25.008 : shutdown requested: Disconnected
+20220809-11:53:25.012 : shutdown

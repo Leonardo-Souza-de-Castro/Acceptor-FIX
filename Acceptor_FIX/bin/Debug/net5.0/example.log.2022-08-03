@@ -1,0 +1,6 @@
+INFO 1 Acceptor_FIX.Program - Acceptor Iniciado
+INFO 1 Acceptor_FIX.Program - Acceptor Iniciado
+INFO 1 Acceptor_FIX.Program - Acceptor Iniciado
+INFO 6 Acceptor_FIX.Program - {"BeginString":"FIX.4.4","BodyLength":"70","MsgType":"A","MsgSeqNum":"1","SenderCompID":"EXECUTOR","TargetCompID":"CLIENT1","SendingTime":"20220803-11:50:32.334","CheckSum":"083","EncryptedMethod":"0","HeartBtInt":"30","TestReqID":null,"BeginSeqNo":null,"EndSeqNo":null,"ClOrdID":null,"HandlInst":null,"Symbol":null,"Side":null,"TransactTime":null,"OrdType":null,"Price":null,"OrderQty":null,"NoPartyIDs":null}
+INFO 6 Acceptor_FIX.Program - {"BeginString":"FIX.4.4","BodyLength":"67","MsgType":"2","MsgSeqNum":"2","SenderCompID":"EXECUTOR","TargetCompID":"CLIENT1","SendingTime":"20220803-11:50:32.867","CheckSum":"184","EncryptedMethod":null,"HeartBtInt":null,"TestReqID":null,"BeginSeqNo":"1","EndSeqNo":"0","ClOrdID":null,"HandlInst":null,"Symbol":null,"Side":null,"TransactTime":null,"OrdType":null,"Price":null,"OrderQty":null,"NoPartyIDs":null}
+INFO 1 Acceptor_FIX.Program - Acceptor Iniciado

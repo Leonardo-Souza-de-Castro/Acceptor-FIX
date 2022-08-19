@@ -1,0 +1,11 @@
+20220809-12:04:22.770 : connected
+20220809-12:05:21.157 : shutdown requested: reactor is shutting down
+20220809-12:05:22.051 : SocketReader Error: System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'FileLog'.
+   at QuickFix.FileLog.DisposedCheck()
+   at QuickFix.FileLog.OnEvent(String s)
+   at QuickFix.Session.Next()
+   at QuickFix.SocketReader.Read()
+20220809-12:05:22.052 : shutdown requested: Cannot access a disposed object.
+Object name: 'FileLog'.
+20220809-12:05:22.055 : shutdown

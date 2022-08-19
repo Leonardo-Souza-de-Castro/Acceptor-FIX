@@ -1,0 +1,22 @@
+20220809-11:43:26.942 : connected
+20220809-11:43:27.260 : Error on Session 'FIX.4.4:EXECUTOR->CLIENT1': System.IO.IOException: The process cannot access the file 'C:\Users\Guilherme\Desktop\Trabalhos do leo\Trabalho\FIX\Acceptor FIX\Acceptor_FIX\bin\Debug\net5.0\store\FIX.4.4-EXECUTOR-CLIENT1.session' because it is being used by another process.
+   at System.IO.FileSystem.DeleteFile(String fullPath)
+   at System.IO.File.Delete(String path)
+   at QuickFix.FileStore.PurgeSingleFile(String filename)
+   at QuickFix.FileStore.PurgeFileCache()
+   at QuickFix.FileStore.Reset()
+   at QuickFix.SessionState.Reset(String reason)
+   at QuickFix.Session.NextLogon(Message logon)
+   at QuickFix.Session.Next(MessageBuilder msgBuilder)
+   at QuickFix.Session.NextMessage(String msgStr)
+   at QuickFix.Session.Next(String msgStr)
+   at QuickFix.SocketReader.OnMessageFoundInternal(String msg)
+20220809-11:43:39.603 : Error on Session 'FIX.4.4:EXECUTOR->CLIENT1': QuickFix.QuickFIXException: Tried to send a reject while not logged on
+   at QuickFix.Session.GenerateReject(Message message, SessionRejectReason reason, Int32 field)
+   at QuickFix.Session.GenerateReject(MessageBuilder msgBuilder, SessionRejectReason reason, Int32 field)
+   at QuickFix.Session.Next(MessageBuilder msgBuilder)
+   at QuickFix.Session.NextMessage(String msgStr)
+   at QuickFix.Session.Next(String msgStr)
+   at QuickFix.SocketReader.OnMessageFoundInternal(String msg)
+20220809-11:43:46.837 : shutdown requested: Disconnected
+20220809-11:43:46.842 : shutdown
